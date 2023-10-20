@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    background-color: rgb(114,48,1);
+    padding: 10px;
+}
+
+table{
+    border-spacing: 20px;
+}
+
+td{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 2px;
+}
+
+span{
+    font-size: 0.8em;
+    color: red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+td:first-child{
+    width: 250px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
